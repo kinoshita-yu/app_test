@@ -23,6 +23,7 @@ services:
     volumes:
       - .:/api_test
     environment:
+      RAILS_ENV: development
       APP_DATABASE_USER: root
       APP_DATABASE_PASSWORD: testtest
       APP_DATABASE_HOST: db
